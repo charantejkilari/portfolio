@@ -1,0 +1,90 @@
+// experience.component.scss
+.experience-container {
+    padding: 4rem 2rem;
+    background: white;
+    
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 3rem;
+      color: #1e3c72;
+    }
+    
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-left: 2rem;
+      
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: #1e3c72;
+      }
+      
+      .timeline-item {
+        position: relative;
+        margin-bottom: 3rem;
+        padding-left: 2rem;
+        
+        &::before {
+          content: '';
+          position: absolute;
+          left: -10px;
+          top: 5px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          background: #4fc3f7;
+          border: 3px solid #1e3c72;
+        }
+        
+        .timeline-date {
+          font-weight: bold;
+          color: #1e3c72;
+          margin-bottom: 0.5rem;
+        }
+        
+        .timeline-content {
+          background: #f8f9fa;
+          padding: 1.5rem;
+          border-radius: 8px;
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+          
+          h3 {
+            margin-top: 0;
+            color: #1e3c72;
+          }
+          
+          h4 {
+            margin: 0.5rem 0;
+            color: #666;
+          }
+          
+          p {
+            line-height: 1.6;
+            color: #555;
+          }
+          
+          .tech-used {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            
+            .tech-tag {
+              background: #e3f2fd;
+              color: #1e3c72;
+              padding: 0.3rem 0.8rem;
+              border-radius: 20px;
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+  }

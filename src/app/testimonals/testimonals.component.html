@@ -1,0 +1,23 @@
+<!-- testimonials.component.html -->
+<div class="testimonials-container">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="testimonials-slider">
+      <div class="testimonial-card" *ngFor="let testimonial of testimonials">
+        <div class="testimonial-content">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p>{{testimonial.text}}</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img [src]="testimonial.image" [alt]="testimonial.name">
+          </div>
+          <div class="author-info">
+            <h4>{{testimonial.name}}</h4>
+            <p class="position">{{testimonial.position}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

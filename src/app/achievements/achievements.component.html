@@ -1,0 +1,46 @@
+<!-- achievements.component.html -->
+<!-- <div class="achievements-container">
+    <h2 class="section-title">My Achievements</h2>
+    <div class="achievements-scroller" #scroller>
+      <div class="achievement-card" *ngFor="let achievement of achievements">
+        <div class="achievement-icon">
+          <i [class]="achievement.icon"></i>
+        </div>
+        <h3>{{achievement.title}}</h3>
+        <p>{{achievement.description}}</p>
+      </div>
+    </div>
+    <div class="scroller-controls">
+      <button (click)="scrollLeft()"><i class="fas fa-chevron-left"></i></button>
+      <button (click)="scrollRight()"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div> -->
+
+  <!-- achievements.component.html -->
+<div class="achievements-container">
+    <h2 class="section-title">My Achievements</h2>
+    
+    <div class="achievements-scroller" #scroller (mouseenter)="toggleAutoScroll()" (mouseleave)="resumeAutoScroll()">
+      <div class="achievement-card" *ngFor="let achievement of achievements">
+        <div class="achievement-icon">
+          <i [class]="achievement.icon"></i>
+        </div>
+        <h3>{{achievement.title}}</h3>
+        <p>{{achievement.description}}</p>
+      </div>
+    </div>
+    
+    <div class="scroller-controls">
+      <button (click)="scrollLeft()" title="Scroll Left">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      
+      <button (click)="toggleAutoScroll()" class="pause-resume-btn" [title]="isPaused ? 'Resume Auto Scroll' : 'Pause Auto Scroll'">
+        <i [class]="isPaused ? 'fas fa-play' : 'fas fa-pause'"></i>
+      </button>
+      
+      <button (click)="scrollRight()" title="Scroll Right">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>

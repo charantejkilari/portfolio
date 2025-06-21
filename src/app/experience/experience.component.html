@@ -1,0 +1,17 @@
+<!-- experience.component.html -->
+<div class="experience-container">
+    <h2 class="section-title">My Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item" *ngFor="let exp of experiences">
+        <div class="timeline-date">{{exp.date}}</div>
+        <div class="timeline-content">
+          <h3>{{exp.position}}</h3>
+          <h4>{{exp.company}}</h4>
+          <p>{{exp.description}}</p>
+          <div class="tech-used">
+            <span *ngFor="let tech of exp.technologies" class="tech-tag">{{tech}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
