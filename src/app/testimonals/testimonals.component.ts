@@ -18,7 +18,7 @@ export class TestimonialsComponent {
       image: 'ys.jpeg'
     },
     {
-      text: 'Working with charan on our Kubernetes migration was a pleasure. He not only delivered the project ahead of schedule but also mentored our team on cloud best practices. Highly recommended for any cloud development work.',
+      text: 'Charan quickly became an invaluable part of our team at Sodexo. His problem solving skills, professionalism, and initiative stood out from day one.',
       name: 'Megan Gorski',
       position: 'IT Manager at Sodexo',
       image: 'mg.jpg'
