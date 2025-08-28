@@ -17,7 +17,7 @@ export class ProjectsComponent {
       technologies: ['.NET Core', 'Whatsapp API', 'ChatGPT', 'Prompt Engineering', 'SQL Server', 'Excel API and Automation'],
       // image: 'assets/project1.jpg',
       demoLink: 'https://lnkd.in/gjV5T53R',
-      codeLink: 'https://github.com/example'
+      // codeLink: 'https://github.com/example'
     },
     {
       title: 'Auto Provisioning Assistant[2023]',
@@ -31,7 +31,7 @@ export class ProjectsComponent {
       description: 'Automate student assignment to departments by uploading Excel data. Enable criteria flexibility with customizable department-specific requirements (e.g., minimum/maximum number of employees). Manage student roles, pay, and hire status efficiently via an admin panel.',
       technologies: ['.Net 8', 'Angular', 'SQL Server', 'EF Core', 'OAuth 2.0'],
       image: 'assets/project3.jpg',
-      codeLink: 'https://github.com/example'
+      // codeLink: 'https://github.com/example'
     },
     {
       title: 'Anti Cheat Quiz Application[2021]',
