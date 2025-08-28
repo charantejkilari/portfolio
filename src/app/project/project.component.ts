@@ -47,3 +47,5 @@ export class ProjectsComponent {
     }
   ];
 }
+
+//removed below comments
