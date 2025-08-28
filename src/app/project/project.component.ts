@@ -49,5 +49,3 @@ export class ProjectsComponent {
     }
   ];
 }
-
-//test comment to check github pages
