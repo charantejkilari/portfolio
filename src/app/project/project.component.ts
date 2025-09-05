@@ -14,22 +14,30 @@ export class ProjectsComponent {
     {
       title: 'AI Powered ChatBot for Educational Institutions(Hackathon Winner)[2023]',
       description: 'Developed and deployed a ChatGPT-integrated chatbot for automating FAQs, password resets via OTP, and appointment scheduling.',
-      technologies: ['.NET Core', 'Whatsapp API', 'ChatGPT', 'Prompt Engineering', 'SQL Server', 'Excel API and Automation'],
+      technologies: ['.NET 6', 'Whatsapp API', 'ChatGPT', 'Prompt Engineering', 'SQL Server', 'Excel API and Automation'],
       // image: 'assets/project1.jpg',
       demoLink: 'https://lnkd.in/gjV5T53R',
     },
+    {
+      title: 'Smart Split Calculator',
+      description: 'A .NET 8 Web API that automatically calculates fair bill splits from receipt data. Users input grocery items with prices, select participants per item, and get detailed cost breakdowns with tax calculations as per user residing state. Coming Soon: OCR receipt upload, multi-state support, advanced algorithms, and mobile integration.',
+      technologies: ['.Net 8', 'Entity Framework Core', 'Clean Architecture', 'Authentication', 'Authorization', 'SQL Server', 'DBMS'],
+      // image: 'assets/project2.jpg',
+      codeLink: 'https://github.com/charantejkilari/SmartSplitCalculator/'    },
     {
       title: 'Auto Provisioning Assistant[2023]',
       description: 'A fully serverless e-commerce backend using Azure Functions and Durable Entities for order processing and inventory management.',
       technologies: ['.Net 6', 'Angular', 'ChatGPT' , 'Prompt Engineering', 'Azure Devops', 'PowerShell', 'C#', 'SQL Server', 'Azure API Management'],
       // image: 'assets/project2.jpg',
-      demoLink: 'https://www.linkedin.com/posts/charantejakilari_pwcindia-onecloud-ai-activity-7072465365384978433-fWt3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJx-3UBIh7bF4ODsb2yGLnvKnEIWrDKgfc'
+      demoLink: 'https://www.linkedin.com/posts/charantejakilari_pwcindia-onecloud-ai-activity-7072465365384978433-fWt3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJx-3UBIh7bF4ODsb2yGLnvKnEIWrDKgfc',
+      codeLink: ''
     },
     {
       title: 'Smart Hire[2024]',
       description: 'Automate student assignment to departments by uploading Excel data. Enable criteria flexibility with customizable department-specific requirements (e.g., minimum/maximum number of employees). Manage student roles, pay, and hire status efficiently via an admin panel.',
       technologies: ['.Net 8', 'Angular', 'SQL Server', 'EF Core', 'OAuth 2.0'],
       image: 'assets/project3.jpg',
+      codeLink: 'https://github.com/charantejkilari/SmartHire/'
     },
     {
       title: 'Anti Cheat Quiz Application[2021]',
