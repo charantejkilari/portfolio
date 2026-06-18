@@ -1,4 +1,4 @@
-name: Build and Deploy Angular
+name: Build Angular Site
 
 on:
   push:
@@ -13,27 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build Angular app
+      - name: Build Angular
         run: npm run build
 
-      - name: Copy build to docs
-        run: |
-          rm -rf docs
-          mkdir docs
-          cp -r dist/* docs/
-
-      - name: Commit docs
+      - name: Commit updated docs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-build docs"
