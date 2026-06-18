@@ -29,7 +29,7 @@ export class ProjectsComponent {
       description: 'A fully serverless e-commerce backend using Azure Functions and Durable Entities for order processing and inventory management.',
       technologies: ['.Net 6', 'Angular', 'ChatGPT' , 'Prompt Engineering', 'Azure Devops', 'PowerShell', 'C#', 'SQL Server', 'Azure API Management'],
       // image: 'assets/project2.jpg',
-      demoLink: 'https://www.linkedin.com/posts/charantejakilari_pwcindia-onecloud-ai-activity-7072465365384978433-fWt3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJx-3UBIh7bF4ODsb2yGLnvKnEIWrDKgfc',
+      demoLink: '',
       codeLink: ''
     },
     {
