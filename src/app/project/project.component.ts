@@ -12,7 +12,7 @@ import { CommonModule, NgFor } from '@angular/common';
 export class ProjectsComponent {
   projects = [
     {
-      title: 'AI Powered ChatBot for Educational Institutions(Hackathon Winner)[2023]',
+      title: 'AI-Powered ChatBot for Educational Institutions(Hackathon Winner)[2023]',
       description: 'Developed and deployed a ChatGPT-integrated chatbot for automating FAQs, password resets via OTP, and appointment scheduling.',
       technologies: ['.NET 6', 'Whatsapp API', 'ChatGPT', 'Prompt Engineering', 'SQL Server', 'Excel API and Automation'],
       // image: 'assets/project1.jpg',
