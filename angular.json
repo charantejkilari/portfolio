@@ -18,7 +18,9 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "baseHref": "/portfolio/",
-            "outputPath": "docs",
+            "outputPath": {
+                base: "docs"
+            },
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -38,9 +40,7 @@
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "ssr": false
           },
           "configurations": {
             "static": {
